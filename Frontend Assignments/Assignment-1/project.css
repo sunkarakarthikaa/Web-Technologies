@@ -1,0 +1,23 @@
+.one{
+    text-transform: capitalize;
+}
+
+a{
+    display: block;
+}
+
+.four{
+    font-style: italic;
+}
+
+h3{
+    display: inline;
+}
+
+p{
+    display: inline;
+}
+
+a{
+    margin-top: 15px;
+}
