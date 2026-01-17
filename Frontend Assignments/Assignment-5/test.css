@@ -1,0 +1,30 @@
+html {
+    margin:10px 20px;
+  }
+  
+  h1, h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  
+  h1{
+  padding-bottom:50px;
+  }
+  
+  span {
+    color:red;
+  }
+  
+  body {
+  background-color:rgb(238,255,210);
+     font-size:1em;
+  }
+  
+  img{
+      float:left;
+    margin-right:20px;
+  }
+  
+  .para{
+      display:right;
+  }
