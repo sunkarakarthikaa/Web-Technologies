@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="./test.css ">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <h2>Registration form</h2>
+        <div>
+            <label for="Username">Username</label>
+            <input type="text" id="Username" autocomplete="off" placeholder="Eg:John" name="Username" required  minlength="4" maxlength="6" >
+        </div>
+        <div>
+            <label for="Password">Password</label>
+            <input type="Password" name="Password" id="Password" required >
+        </div>
+       
+         <div>
+            <label for="age">Age</label>
+            <input type="number" name="age" id="age" >
+         </div>
+
+         <div>
+            <label for="doj">Date of joining</label>
+            <input type="date" name="doj" id="doj" >
+         </div>
+
+         <div>
+            <label for="mail">Email id</label>
+            <input type="email" name="mail" id="mail">
+         </div>
+
+         <div>
+            <label for="file">Upload document</label>
+            <input type="file" name="file" id="file">
+         </div>
+
+         <div>
+            <label for="js" >Select skills :</label>
+        <div>
+            <label for="js">Java Script</label>
+            <input type="checkbox" name="js" id="js"  >
+        </div>
+        <div>
+            <label for="java">Java</label>
+            <input type="checkbox" name="java" id="java"  > 
+        </div>
+        <div>
+            <label for="react">React</label>
+            <input type="checkbox" name="react" id="react"  > 
+        </div> 
+        </div>
+
+        <div>
+            <label>Choose Gender :</label>
+            <div>
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="male"/>
+            </div>
+            <div>
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="female"/>
+            </div>
+            <div>
+                <label for="others">Other</label>
+                <input type="radio" name="gender" id="other"/>
+            </div>
+        </div>
+
+    <div>
+        <label for="state">Select State</label>
+        <select name="state" id="state">
+            <option value="disabled"  >--select state--</option>
+            <option value="ap">AP</option>
+            <option value="telangana">Telangana</option>
+        </select>
+    </div>
+
+    <div>
+        <label for="fb">provie Feedback</label>
+        <textarea name="feedback" id="fb" cols="30" rows="10"></textarea>
+    </div>
+
+         <button type="submit" >Login</button>
+    </form>
+   
+</body>
+</html>
