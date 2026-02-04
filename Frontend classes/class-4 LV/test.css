@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Louis Vuitton Web", "Louis Vuitton Web Fallback", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    font-weight: 400;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px  20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    list-style-type: none;
+    color: black;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+.one {
+    text-decoration: underline;
+}
+
+header {
+    background-image: url('https://in.louisvuitton.com/images/is/image//content/dam/lv/editorial-content/New-Homepage/2024/central/collections/men-fw24-collection/MEN_FW24_COLLECTION_HP_20062024_DI3.jpg?wid=2400');
+    padding: 150px 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;   
+}
+
+.item {
+    width: 320px;
+    padding: 20px;
+    text-align: center;
+}
+
+.item img {
+    width: 300px;
+}
+
+main {
+    margin: 20px 60px;
+    font-size: 1rem;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+footer {
+    color: grey;
+    padding: 20px 10px;
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
