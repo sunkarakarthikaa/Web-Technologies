@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./smart.css">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <h2>Sign up</h2>
+
+        <div>
+            <label for="state">Name:</label>
+            <select name="state" id="state">
+                <option value="disabled">full name</option>
+                <option value="ap">ABC</option>
+                <option value="telangana">XYZ</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="mail">Email:</label>
+            <input type="email" name="mail" id="mail" placeholder="gmail id">
+        </div>
+
+        <div>
+            <label for="Password">Password:</label>
+            <input type="password" name="Password" id="Password" required placeholder="8 characters">
+        </div>
+
+        <div>
+            <label for="ConfirmPassword">Confirm Password:</label>
+            <input type="password" name="ConfirmPassword" id="ConfirmPassword" required placeholder="8 characters">
+        </div>
+
+        <div>
+            <label for="doj">Date Of Birth:</label>
+            <input type="date" name="doj" id="doj">
+        </div>
+
+        <div>
+            <label>Choose Gender:</label>
+            <div class="gender-group">
+                <div class="gender-option">
+                    <input type="radio" name="gender" id="male">
+                    <label for="male">Male</label>
+                </div>
+                <div class="gender-option">
+                    <input type="radio" name="gender" id="female">
+                    <label for="female">Female</label>
+                </div>
+                <div class="gender-option">
+                    <input type="radio" name="gender" id="other">
+                    <label for="other">Other</label>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <label for="file">Insert your photo:</label>
+            <input type="file" name="file" id="file">
+        </div>
+
+        <div>
+            <label for="resume">Insert your resume:</label>
+            <input type="file" name="resume" id="resume">
+        </div>
+
+        <div>
+            <label for="fb">Security Question:</label>
+            <textarea name="feedback" id="fb" cols="30" rows="10"></textarea>
+        </div>
+
+        <div class="gender-group">
+            <div class="gender-option">
+                <input type="checkbox" name="terms" id="terms">
+                <label for="terms">I agree to the terms and conditions</label>
+            </div>
+        </div>
+
+        <button type="submit">Register</button>
+    </form>
+</body>
+</html>
